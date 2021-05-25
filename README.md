@@ -2,7 +2,7 @@
 
 Instituto Federal de Santa Catarina
 
-Turma: Projeto Integrador 2021/1
+Turma: Projeto Integrador II 2021/1
 
 Aluno: Yuri Marques Barboza
 
