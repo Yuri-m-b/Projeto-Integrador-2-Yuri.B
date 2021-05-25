@@ -1,6 +1,8 @@
-# Projeto-Integrador-2-Yuri.B
+# Projeto Integrador II de Yuri M.B.
 
-Projeto Integrador 2021/1
+Instituto Federal de Santa Catarina
+
+Turma: Projeto Integrador 2021/1
 
 Aluno: Yuri Marques Barboza
 
