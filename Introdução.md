@@ -12,15 +12,22 @@ Esse termo pode ser utilizado quando todos os mecanismos automáticos e suas tec
 
 ![Imagem1](https://imagens-revista-pro.vivadecora.com.br/uploads/2018/07/Automa%C3%A7%C3%A3o-residencial-seguran%C3%A7a.jpg)
 
+### **Exemplos de Domótica**
+
+&emsp; A domótica tem como objetivo contentar as necessidades de comunicação, segurança, comodidade diária e entreter o usuário, de uma forma que a pessoa precise realizar o mínimo de esforço para usufruir desses benefícios. <br />
+Alguns exemplos de domótica podem ser vistos em:
+
+
 
 
 ### Referências
 
-https://www.vivadecora.com.br/pro/tecnologia/automacao-residencial/
-
-https://www.tuacasa.com.br/automacao-residencial/
-
-https://www.infoescola.com/tecnologia/domotica/
+Alguns Aspectos Sobre a Automação Residencial - Domótica; Vanderlei Rabelo Teza <br />
+https://www.vivadecora.com.br/pro/tecnologia/automacao-residencial/ <br />
+https://www.tuacasa.com.br/automacao-residencial/ <br />
+https://www.infoescola.com/tecnologia/domotica/ <br />
+https://mundoeducacao.uol.com.br/informatica/domotica.htm#:~:text=Tem%20por%20objetivo%20satisfazer%20as,de%20esfor%C3%A7o%20durante%20atividades%20corriqueiras. <br />
+https://www.mundodaeletrica.com.br/domotica-o-que-e-quais-as-vantagens/ <br />
 
 
 
