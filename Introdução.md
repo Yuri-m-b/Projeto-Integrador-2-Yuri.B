@@ -13,7 +13,7 @@
 
 ### **Exemplos de Domótica**
 
-&emsp; A domótica tem como objetivo contentar as necessidades de comunicação, segurança, comodidade diária e entreter o usuário, de uma forma que a pessoa precise realizar o mínimo de esforço para usufruir desses benefícios. <br />
+&emsp; A domótica tem como objetivo contentar as necessidades de comunicação, segurança, comodidade diária e lazer, de uma forma que o usúario precise realizar o mínimo de esforço para usufruir desses benefícios. <br />
 
 Alguns exemplos do uso da domótica podem ser para:
 * Controlar luzes e temperatura do ambiente remotamente,
