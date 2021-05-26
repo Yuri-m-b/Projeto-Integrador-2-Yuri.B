@@ -4,7 +4,7 @@
 
 &emsp; Com o avanço tecnológico e a redução nos custos de produção dos equipamentos eletrônicos, a automação residencial se tornou uma realidade nos tempos atuais, todavia certa parte da população não tem conhecimento sobre o assunto, conhecido como automação residencial, casas inteligentes, domótica, entre outros.<br />
 &emsp; O termo domótica surgiu na década de 80 na França, quando construtores planejavam controlar a iluminação, climatização e a segurança nos edifícios de uma forma automática.
-Esse termo pode ser utilizado quando todos os mecanismos automáticos e suas tecnologias que estão em um determinado local, podem e são aplicados para substituir o que antes era uma tarefa manual para uma tarefa automatizada.
+Esse termo pode ser utilizado quando todos os mecanismos automáticos que estão em um determinado local podem e são aplicados para substituir o que antes era uma tarefa manual para uma tarefa automatizada.
 
 ### **Benefícios**
 
@@ -17,7 +17,6 @@ Esse termo pode ser utilizado quando todos os mecanismos automáticos e suas tec
 &emsp; A domótica tem como objetivo contentar as necessidades de comunicação, segurança, comodidade diária e entreter o usuário, de uma forma que a pessoa precise realizar o mínimo de esforço para usufruir desses benefícios. <br />
 
 Alguns exemplos do uso da domótica podem ser vistos quando:
-
 * Controlar luzes e temperatura do ambiente remotamente,
 * Acompanhar em tempo real alarmes e sensores mesmo não estando no mesmo ambiente ou até mesmo perto da casa onde esses sensores estão instalados,
 * Controlar janelas com persianas elétricas,
@@ -26,6 +25,11 @@ Alguns exemplos do uso da domótica podem ser vistos quando:
 * Usar comando de voz para certos eletrônicos.
 
 ![Imagem2](https://imagens-revista-pro.vivadecora.com.br/uploads/2018/07/Automa%C3%A7%C3%A3o-residencial-cenas-inteligentes.jpg)
+
+### **Custo**
+
+&emsp; De acordo com o engenheiro José Roberto Muratori, diretor executivo da Associação Brasileira de Automação Residencial e Predial (Aureside), em sua entrevista para o website e revista TuaCasa, os custos para a automação de uma residência depende do grau de integração que o morador deseja, instalações simples de automação podem ter custos a partir de três mil reais (R$ 3.000,00), tendo empresas que oferecem pacotes com preços em torno de quinze mil reais (R$ 15.000,00), esses pacotes incluem luzes, ar condicionado, cortinas, sistema de som, TV e circuito interno de câmeras. <br />
+&emsp; Também foi explicado por Muratori, que uns dos indicadores de custos utilizados pelo mercado é projetar o grau de integração da automação tendo preços que variam de 3% a 5% do valor do imóvel, principalmente para pacotes com um maior grau de tecnologia.
 
 
 
