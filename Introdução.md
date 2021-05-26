@@ -24,6 +24,7 @@ Alguns exemplos do uso da domótica podem ser vistos quando:
 * Interagir e programar sistemas ligados a lazer como sistema audiovisual,
 * Administrar os consumos de energias reduzindo assim possíveis gastos extras,
 * Usar comando de voz para certos eletrônicos.
+
 ![Imagem2](https://imagens-revista-pro.vivadecora.com.br/uploads/2018/07/Automa%C3%A7%C3%A3o-residencial-cenas-inteligentes.jpg)
 
 
