@@ -15,8 +15,15 @@ Esse termo pode ser utilizado quando todos os mecanismos automáticos e suas tec
 ### **Exemplos de Domótica**
 
 &emsp; A domótica tem como objetivo contentar as necessidades de comunicação, segurança, comodidade diária e entreter o usuário, de uma forma que a pessoa precise realizar o mínimo de esforço para usufruir desses benefícios. <br />
-Alguns exemplos de domótica podem ser vistos em:
 
+Alguns exemplos do uso da domótica podem ser vistos quando:
+
+* Controlar luzes e temperatura do ambiente remotamente,
+* Acompanhar em tempo real alarmes e sensores mesmo não estando no mesmo ambiente ou até mesmo perto da casa onde esses sensores estão instalados,
+* Controlar janelas com persianas elétricas,
+* Interagir e programar sistemas ligados a lazer como sistema audiovisual,
+* Administrar os consumos de energias reduzindo assim possíveis gastos extras,
+* Usar comando de voz para certos eletrônicos.
 
 
 
