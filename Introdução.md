@@ -2,7 +2,7 @@
 
 ### **1.1 Origem**
 
-&emsp; Com o avanço tecnológico e a redução nos custos de produção dos equipamentos eletrônicos, a automação residencial se tornou uma realidade nos tempos atuais, todavia certa parte da população ainda não tem conhecimento sobre o assunto, conhecido e chamado como automação residencial, casas inteligentes, domótica, entre outros.<br />
+&emsp; Com o avanço tecnológico e a redução nos custos de produção dos equipamentos eletrônicos, a automação residencial se tornou uma realidade nos tempos atuais, todavia certa parte da população ainda não tem conhecimento sobre o assunto.<br />
 &emsp; O termo domótica surgiu na década de 80 na França, quando construtores planejavam controlar a iluminação, climatização e a segurança nos edifícios de uma forma automática. Esse termo pode ser utilizado quando os mecanismos automáticos que estão em um determinado local podem e são aplicados para substituir o que antes era uma tarefa manual para uma tarefa automatizada.
 
 ### **1.2 Benefícios**
