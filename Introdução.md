@@ -28,7 +28,7 @@ Alguns exemplos do uso da domótica podem ser para:
 ### **1.4 Custo**
 
 &emsp; De acordo com o engenheiro José Roberto Muratori, diretor executivo da Associação Brasileira de Automação Residencial e Predial (Aureside), em sua entrevista para o website e revista TuaCasa, os custos para a automação de uma residência depende do grau de integração que o morador deseja, instalações simples de automação podem ter custos a partir de três mil reais (R$ 3.000,00), tendo empresas que oferecem pacotes com preços em torno de quinze mil reais (R$ 15.000,00), esses pacotes incluem luzes, ar condicionado, cortinas, sistema de som, TV e circuito interno de câmeras. <br />
-&emsp; Também foi explicado por Muratori, que alguns dos indicadores de custos utilizados pelo mercado é projetar o grau de integração da automação tendo preços que variam de 3% a 5% do valor do imóvel, principalmente para pacotes com um maior grau de tecnologia.
+&emsp; Também foi explicado por Muratori, que alguns dos indicadores de custos utilizados pelo mercado é projetar o grau de integração tendo seus preços variando de 3% a 5% do valor do imóvel, principalmente para pacotes com um maior grau de automação.
 
 ### **1.5 Conclusão**
 
