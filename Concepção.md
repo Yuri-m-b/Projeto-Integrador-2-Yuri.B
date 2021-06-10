@@ -21,3 +21,8 @@
 
 &emsp; Para esses requisitos serão usados os seguintes componentes eletrônicos:
 ![img](https://sigaa.ifsc.edu.br/shared/verImagem?salvar=false&idArquivo=1721723&key=9f6226a820d7b1c92b68050e7b9ba5f6)
+
+### **Planejamento**
+
+&emsp; Com a planta baixa criada e os componentes eletrônicos separados, já é possível planejar onde cada sensor e controlador serão instalados, como pode ser visto na próxima imagem:
+
