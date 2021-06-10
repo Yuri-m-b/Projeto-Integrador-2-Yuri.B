@@ -27,3 +27,5 @@
 &emsp; Com a planta baixa criada e os componentes eletrônicos separados, já é possível planejar onde cada sensor e controlador serão instalados, como pode ser visto na próxima imagem:
 
 ![img2](https://i.imgur.com/H3w0Q7E.jpg)
+
+Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão.
