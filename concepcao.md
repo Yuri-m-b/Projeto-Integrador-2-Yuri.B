@@ -28,4 +28,4 @@
 
 ![img2](https://i.imgur.com/H3w0Q7E.jpg)
 
-Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão.
+Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão. Para os sensores de presença e dectores de fumaça e movimento, quando eles forem atividos um LED será aceso para demonstrar que os sensores ativaram, poderá ser usado um LED para cada sensor ou apenas um LED multi colorido, e especificar uma cor de ativação para cada sensor.
