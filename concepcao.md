@@ -5,7 +5,7 @@
 
 &emsp; Para a primeira parte da concepção do projeto, foi montado uma planta baixa de como serão os cômodos para a maquete da residência que será usada, os cômodos foram criados pensando onde serão utilizados cada sensor e LED. A planta baixa foi desenvolvida no software AutoCAD web.
 
-![img2](https://i.imgur.com/iPy2soA.jpg)
+![img2](https://i.imgur.com/fUaBmTU.jpg)
 
 
 
@@ -13,7 +13,7 @@
 
 &emsp; Com a planta baixa criada e os componentes eletrônicos separados, já é possível planejar onde cada sensor e controlador serão instalados.:
 
-Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão. Pretende-se controlar esses eletrônicos remotamente,
+Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão, pretende-se controlar esses eletrônicos remotamente. O uso desses controladores tem como responsabilidade segurança, comodidade e economia de gastos, permitindo que o usuário consiga monitorar sua residência mesmo não estando dentro dela.
 
 &emsp; Imagem dos componentes eletrônicos que serão usados:
 
