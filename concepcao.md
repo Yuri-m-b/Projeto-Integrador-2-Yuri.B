@@ -11,17 +11,13 @@
 
 ### **Planejamento**
 
-&emsp; Com a planta baixa criada e os componentes eletrônicos separados, já é possível planejar onde cada sensor e controlador serão instalados, como pode ser visto na próxima imagem:
+&emsp; Com a planta baixa criada e os componentes eletrônicos separados, já é possível planejar onde cada sensor e controlador serão instalados.:
 
-&emsp; A lista de componentes eletrônicos usado possui tais componentes:
+Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão. Pretende-se controlar esses eletrônicos remotamente,
 
-* Controlar a iluminação dos cômodos.
-* Controlar os LEDs de forma remota (com o pc).
-* Sensor de presença para o jardim.
-* Sensor de gás.
-* Servomotor para o portão eletrônico
+&emsp; Imagem dos componentes eletrônicos que serão usados:
 
 ![img](https://sigaa.ifsc.edu.br/shared/verImagem?salvar=false&idArquivo=1721723&key=9f6226a820d7b1c92b68050e7b9ba5f6)
 
-Serão usados LEDs para quase todos os cômodos, um detector de fumaça na cozinha, um detector de movimento no jardim e por fim um servomotor para o portão. Para os sensores de presença e dectores de fumaça e movimento, quando eles forem atividos um LED será aceso para demonstrar que os sensores ativaram, poderá ser usado um LED para cada sensor ou apenas um LED multi colorido, e especificar uma cor de ativação para cada sensor.
+
 
