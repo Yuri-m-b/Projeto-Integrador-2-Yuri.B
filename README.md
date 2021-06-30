@@ -11,3 +11,5 @@ Aluno: Yuri Marques Barboza
 ## [Introdução Domótica](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Introdu%C3%A7%C3%A3o.md)
 
 ## [Concepção](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/concepcao.md)
+
+## [Design](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/design.md)
