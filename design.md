@@ -12,3 +12,4 @@ O circuito é composto pelos demais componentes:
 - 1 Sensor Bluetooth/wireless modelo HC-05, utilizado para o controle dos equipamentos de uma forma wireless.
 - 1 Alto falante, para notificação do ativamento dos sensores
 - 1 Sensor ultrassônico HC-sr04, capaz de medir distâncias de 2cm a 4m com precisão, ele será usado como o sensor de movimento para o projeto.
+- 4 Pilhas do tipo AAA, para o fornecimento elétrico dos componentes.
