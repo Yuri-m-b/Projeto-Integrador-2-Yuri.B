@@ -8,7 +8,7 @@
 | ----------------------| ---------- |
 |Arduino Mega 2560| 1
 | Micro Servo SG92R 9g| 1
-| Sensor de Fumaça MQ5	 |  1
+| Sensor de Fumaça MQ2	 |  1
 | LED Branco	 |  6
 | Resistor 330 ohm	| 6
 | Protoboard 830 pontos |  1
