@@ -1,6 +1,6 @@
-## Maquete Eletrônica
+# Design
 
-![img1](https://i.imgur.com/224ynTA.jpg)
+Para essa etapa do projeto, será definido os componentes e materiais que serão empregados na etapa de implementação, e também será demonstrado como esses componentes devem ser ligados.
 
 ## Tabela de Componententes
 
@@ -13,3 +13,8 @@
 | Resistor 620 ohm	| 6
 | Protoboard 830 pontos |  1
 | Sensor de Movimento PIR | 1
+
+## Maquete Eletrônica
+
+![img1](https://i.imgur.com/224ynTA.jpg)
+
