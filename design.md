@@ -1,6 +1,6 @@
 # Design
 
-Para essa etapa do projeto, será definido os componentes e materiais que serão empregados na etapa de implementação, e também será demonstrado como esses componentes devem ser ligados.
+Para essa etapa do projeto, será definido os componentes e materiais que serão empregados na etapa de implementação, e também será demonstrado como esses componentes devem ser ligados, dessa forma foram criados uma tabela com todos os componentes que serão usados e uma maquete eletrônica para ilustrar como esses componentes serão conectados.
 
 ## Tabela de Componententes
 
