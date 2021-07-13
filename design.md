@@ -10,6 +10,6 @@
 | Micro Servo SG92R 9g| 1
 | Sensor de Fumaça MQ2	 |  1
 | LED Branco	 |  6
-| Resistor 330 ohm	| 6
+| Resistor 620 ohm	| 6
 | Protoboard 830 pontos |  1
 | Sensor de Movimento PIR | 1
