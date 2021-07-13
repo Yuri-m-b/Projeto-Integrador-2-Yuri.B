@@ -18,16 +18,14 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ![img1](https://i.imgur.com/224ynTA.jpg)
 
-Para a construção da maquete eletrônica foi usado o software Fritzing (0.9.3b), para esse projeto em particular se mostrou necessario adicionar manualmente os esquematicos de alguns componentes, sendo eles, o micro servo SG92R, o sensor de fumaça MQ2 e por fim o sensor de movimento PIR.
-
 * Arduino Mega 2560: Componente principal do projeto, tendo como função controlar todo os outros componentes que serão usados, esse modelo foi escolhido devido ao maior número de portas de entrada e saída, que serão usadas para conectar o Arduino com os outros componentes.
 
-* Micro Servo SG92R 9g: Usado para controlar o portão da residência, esse componente pode ser usado juntamente com o Arduino Mega devido sua tensão de alimentação ser de 5V.
+* Micro Servo SG92R 9g: Usado para controlar o portão da residência, esse componente pode ser usado juntamente com o Arduino Mega devido sua tensão de alimentação ser de 5V. O servo motor será conectado em uma porta digital, e nas portas GND e de alimentação 5V da placa arduino
 
-* Sensor de Fumaça MQ2: Também chamado de sensor de gás, esse componente tem como função detectar gás de cozinha (GLP).
+* Sensor de Fumaça MQ2: Também chamado de sensor de gás, esse componente tem como função detectar gás de cozinha (GLP). Esse sensor será conectado em uma porta digital e uma porta analógica, e nas portas GND e de alimentação 5V da placa arduino.
 
-* Sensor de Movimento PIR HC-sr501: Esse sensor detecta movimentos em sua área de ação, enviando assim um sinal em nível logico alto para o arduino
+* Sensor de Movimento PIR HC-sr501: Esse sensor detecta movimentos em sua área de ação, enviando assim um sinal em nível lógico alto para o arduino. Esse componente será conectado em uma porta digital, e nas portas GND e de alimentação 5V da placa arduino.
 
-* LED Branco: Será usado para a iluminação dos comodos dentro da casa. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente de 8.1mA e tensão de 5V chegando ate seus conectores.
+* LED Branco: Serão usados para a iluminação dos cômodos dentro da residência. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente de 8.1mA e tensão de 5V chegando até seus conectores.
 
-* Protoboard 830 pontos:
+* Protoboard 830 pontos: A protoboard será usada para receber principalmente as ligações dos componentes nos conectores GND e de 5V da placa Arduino Mega
