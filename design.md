@@ -18,3 +18,4 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ![img1](https://i.imgur.com/224ynTA.jpg)
 
+Para a construção da maquete eletrônica foi usado o software Fritzing (0.9.3b), para esse projeto em particular se mostrou necessario adicionar manualmente os esquematicos de alguns componentes, sendo eles, o micro servo SG92R, o sensor de fumaça MQ2 e por fim o sensor de movimento PIR.
