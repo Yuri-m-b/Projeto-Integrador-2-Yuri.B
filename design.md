@@ -27,3 +27,7 @@ Para a construção da maquete eletrônica foi usado o software Fritzing (0.9.3b
 * Sensor de Fumaça MQ2: Também chamado de sensor de gás, esse componente tem como função detectar gás de cozinha (GLP).
 
 * Sensor de Movimento PIR HC-sr501: Esse sensor detecta movimentos em sua área de ação, enviando assim um sinal em nível logico alto para o arduino
+
+* LED Branco: Será usado para a iluminação dos comodos dentro da casa. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente de 8.1mA e tensão de 5V chegando ate seus conectores.
+
+* Protoboard 830 pontos:
