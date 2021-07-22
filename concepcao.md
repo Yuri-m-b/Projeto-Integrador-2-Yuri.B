@@ -5,7 +5,7 @@
 
 &emsp; Para a primeira parte da concepção do projeto, foi montado uma planta baixa de como serão os cômodos para a maquete da residência que será usada, os cômodos foram criados pensando onde serão utilizados cada sensor e LED. A planta baixa foi desenvolvida no software AutoCAD web.
 
-![img2](https://i.imgur.com/fUaBmTU.jpg)
+![img2](https://i.imgur.com/QoXjQo6.jpg)
 
 
 
