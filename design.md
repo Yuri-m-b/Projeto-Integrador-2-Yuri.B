@@ -17,7 +17,7 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ## Maquete Eletrônica
 
-![img1](https://i.imgur.com/224ynTA.jpg)
+![img1](https://i.imgur.com/gItJHRy.jpg)
 
 * Arduino Mega 2560: Componente principal do projeto, tendo como função controlar todo os outros componentes que serão usados, esse modelo foi escolhido devido ao maior número de portas de entrada e saída, que serão usadas para conectar o Arduino com os outros componentes.
 
