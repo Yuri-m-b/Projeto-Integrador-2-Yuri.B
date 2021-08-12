@@ -12,6 +12,7 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 | LED Branco	 |  6
 | Resistor 620 ohm	| 6
 | Protoboard 830 pontos |  1
+| Módulo Buzzer 5V Passivo | 1
 | Sensor de Movimento PIR HC-sr501 | 1
 
 ## Maquete Eletrônica
@@ -29,6 +30,8 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 * LED Branco: Serão usados para a iluminação dos cômodos dentro da residência. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente de 8.1mA e tensão de 5V chegando até seus conectores.
 
 * Protoboard 830 pontos: A protoboard será usada para receber principalmente as ligações dos componentes nos conectores GND e de 5V da placa Arduino Mega
+
+* Módulo Buzzer 5V: 
 
 ## Maquete
 
