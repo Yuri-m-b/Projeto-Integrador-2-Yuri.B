@@ -31,7 +31,7 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 * Protoboard 830 pontos: A protoboard será usada para receber principalmente as ligações dos componentes nos conectores GND e de 5V da placa Arduino Mega
 
-* Módulo Buzzer 5V: 
+* Módulo Buzzer 5V: Será usado para servir como um alerta ao morador, quando forem detectados valores muitos altos de gás pelo sensor de fumaça MQ2. O módulo buzzer possui três pinos sendo eles; um pino de alimentação 5V, um pino de terra GND e um pino para a saída digital do arduino.
 
 ## Maquete
 
