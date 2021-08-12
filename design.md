@@ -27,9 +27,9 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 * Sensor de Movimento PIR HC-sr501: Esse sensor detecta movimentos em sua área de ação, enviando assim um sinal em nível lógico alto para o arduino. Esse componente será conectado em uma porta digital, e nas portas GND e de alimentação 5V da placa arduino.
 
-* LED Branco: Serão usados para a iluminação dos cômodos dentro da residência. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente de 8.1mA e tensão de 5V chegando até seus conectores.
+* LED Branco: Serão usados para a iluminação dos cômodos dentro da residência. Eles serão conectados nas saídas digitais do Arduino juntamente com seus respectivos resistores, tendo assim uma corrente menor que 10mA.
 
-* Protoboard 830 pontos: A protoboard será usada para receber principalmente as ligações dos componentes nos conectores GND e de 5V da placa Arduino Mega
+* Protoboard 830 pontos: A protoboard será usada para fazer a ligações entre os cabos usados pelos componentes.
 
 * Módulo Buzzer 5V: Será usado para servir como um alerta ao morador, quando forem detectados valores muitos altos de gás pelo sensor de fumaça MQ2. O módulo buzzer possui três pinos sendo eles; um pino de alimentação 5V, um pino de terra GND e um pino para a saída digital do arduino.
 
