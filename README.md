@@ -15,3 +15,24 @@ Aluno: Yuri Marques Barboza
 ## [Design](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/design.md)
 
 ## [Implementação](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/implementacao.md)
+
+
+# Lista de matériais para compra usados nesse projeto:
+
+[Placa MEGA 2560 R3](https://www.filipeflop.com/produto/placa-mega-2560-r3-cabo-usb-para-arduino/)
+
+[Sensor de Gas MQ-2 Inflamável e Fumaça](https://www.filipeflop.com/produto/sensor-de-gas-mq-2-inflamavel-e-fumaca/)
+
+[Sensor de Movimento Presença PIR](https://www.filipeflop.com/produto/sensor-de-movimento-presenca-pir/)
+
+[LED Difuso 5mm Vermelho x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-vermelho-x10-unidades/)
+
+[https://www.filipeflop.com/produto/protoboard-830-pontos/](https://www.filipeflop.com/produto/protoboard-830-pontos/)
+
+[Kit Jumpers 10cm x120 Unidades](https://www.filipeflop.com/produto/kit-jumpers-10cm-x120-unidades/)
+
+[Fonte DC Chaveada 9V 1A Plug P4](https://www.filipeflop.com/produto/fonte-dc-chaveada-9v-1a-plug-p4/)
+
+# Referências
+
+
