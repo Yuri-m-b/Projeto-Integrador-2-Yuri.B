@@ -31,7 +31,7 @@ Aluno: Yuri Marques Barboza
 
 [Sensor de Movimento Presença PIR](https://www.filipeflop.com/produto/sensor-de-movimento-presenca-pir/)
 
-[LED Difuso 5mm Vermelho x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-vermelho-x10-unidades/)
+[LED Difuso 5mm Verde x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-verde-x10-unidades/)
 
 [Protoboard 830 Pontos](https://www.filipeflop.com/produto/protoboard-830-pontos/)
 
