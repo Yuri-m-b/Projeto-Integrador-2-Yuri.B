@@ -17,6 +17,12 @@ Aluno: Yuri Marques Barboza
 ## [Implementação](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/implementacao.md)
 
 
+
+
+
+
+
+
 ### Lista de matériais para compra usados nesse projeto:
 
 [Placa MEGA 2560 R3](https://www.filipeflop.com/produto/placa-mega-2560-r3-cabo-usb-para-arduino/)
@@ -33,6 +39,6 @@ Aluno: Yuri Marques Barboza
 
 [Fonte DC Chaveada 9V 1A Plug P4](https://www.filipeflop.com/produto/fonte-dc-chaveada-9v-1a-plug-p4/)
 
-# Referências
+### Referências
 
 
