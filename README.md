@@ -27,7 +27,7 @@ Aluno: Yuri Marques Barboza
 
 [LED Difuso 5mm Vermelho x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-vermelho-x10-unidades/)
 
-[https://www.filipeflop.com/produto/protoboard-830-pontos/](https://www.filipeflop.com/produto/protoboard-830-pontos/)
+[Protoboard 830 Pontos](https://www.filipeflop.com/produto/protoboard-830-pontos/)
 
 [Kit Jumpers 10cm x120 Unidades](https://www.filipeflop.com/produto/kit-jumpers-10cm-x120-unidades/)
 
