@@ -17,7 +17,7 @@ Aluno: Yuri Marques Barboza
 ## [Implementação](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/implementacao.md)
 
 
-# Lista de matériais para compra usados nesse projeto:
+### Lista de matériais para compra usados nesse projeto:
 
 [Placa MEGA 2560 R3](https://www.filipeflop.com/produto/placa-mega-2560-r3-cabo-usb-para-arduino/)
 
