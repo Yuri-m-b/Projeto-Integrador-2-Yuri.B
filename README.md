@@ -25,19 +25,19 @@ Aluno: Yuri Marques Barboza
 
 ### Lista de matériais para compra usados nesse projeto:
 
-[Placa MEGA 2560 R3](https://www.filipeflop.com/produto/placa-mega-2560-r3-cabo-usb-para-arduino/)
+* [Placa MEGA 2560 R3](https://www.filipeflop.com/produto/placa-mega-2560-r3-cabo-usb-para-arduino/)
 
-[Sensor de Gas MQ-2 Inflamável e Fumaça](https://www.filipeflop.com/produto/sensor-de-gas-mq-2-inflamavel-e-fumaca/)
+* [Sensor de Gas MQ-2 Inflamável e Fumaça](https://www.filipeflop.com/produto/sensor-de-gas-mq-2-inflamavel-e-fumaca/)
 
-[Sensor de Movimento Presença PIR](https://www.filipeflop.com/produto/sensor-de-movimento-presenca-pir/)
+* [Sensor de Movimento Presença PIR](https://www.filipeflop.com/produto/sensor-de-movimento-presenca-pir/)
 
-[LED Difuso 5mm Verde x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-verde-x10-unidades/)
+* [LED Difuso 5mm Verde x10 Unidades](https://www.filipeflop.com/produto/led-difuso-5mm-verde-x10-unidades/)
 
-[Protoboard 830 Pontos](https://www.filipeflop.com/produto/protoboard-830-pontos/)
+* [Protoboard 830 Pontos](https://www.filipeflop.com/produto/protoboard-830-pontos/)
 
-[Kit Jumpers 10cm x120 Unidades](https://www.filipeflop.com/produto/kit-jumpers-10cm-x120-unidades/)
+* [Kit Jumpers 10cm x120 Unidades](https://www.filipeflop.com/produto/kit-jumpers-10cm-x120-unidades/)
 
-[Fonte DC Chaveada 9V 1A Plug P4](https://www.filipeflop.com/produto/fonte-dc-chaveada-9v-1a-plug-p4/)
+* [Fonte DC Chaveada 9V 1A Plug P4](https://www.filipeflop.com/produto/fonte-dc-chaveada-9v-1a-plug-p4/)
 
 ### Referências
 
