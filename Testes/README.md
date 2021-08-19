@@ -16,6 +16,8 @@ O código teste utilizado para o sensor MQ2, possui 2 tarefas, onde a primeira �
 
 ### Código Teste para o sensor PIR
 
+O código teste para o sensor PIR, é um código simples que apenas lê o estado digital do sensor, e quando esse sinal estiver em 'HIGH' ( movimento detectado), um LED é aceso para alertar o usúario.
+
 * [Arquivo Teste p/ PIR](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/Teste_PIR/Teste_sensorPIR.ino)
 
 ### Código Teste para o sensor BUZZER
