@@ -22,6 +22,8 @@ O código teste para o sensor PIR, é um código simples que apenas lê o estado
 
 ### Código Teste para o sensor BUZZER
 
+No código teste do Buzzer, é utilizado o teclado serial para o acionamento do Buzzer usando o comando Tone(pino,frequência) e o encerramento do som usando o comando noTone, porém devido a problemas vistos com os comandos Tone e noTone, foi necessário a adição do comando digitalWrite para o completo desligamento do componente, caso contrário esse codigo nao funcionaria na maneira desejada.
+
 * [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_BUZZER/TESTE_BUZZER.ino)
 
 ### Código Teste para o sensor SERVO
