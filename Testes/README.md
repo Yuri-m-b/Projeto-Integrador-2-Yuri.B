@@ -16,7 +16,7 @@ O código teste utilizado para o sensor MQ2, possui 2 tarefas, onde a primeira �
 
 ### Código Teste para o sensor PIR
 
-O código teste para o sensor PIR, é um código simples que apenas lê o estado digital do sensor, e quando esse sinal estiver em 'HIGH' ( movimento detectado), um LED é aceso para alertar o usúario.
+O código teste para o sensor PIR, é um código simples que apenas lê o estado digital do sensor, e quando esse sinal estiver em 'HIGH'  (movimento detectado), um LED é aceso para alertar o usúario.
 
 * [Arquivo Teste p/ PIR](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/Teste_PIR/Teste_sensorPIR.ino)
 
@@ -26,6 +26,8 @@ No código teste do Buzzer, é utilizado o teclado serial para o acionamento do 
 
 * [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_BUZZER/TESTE_BUZZER.ino)
 
-### Código Teste para o sensor SERVO
+### Código Teste para o componente SERVO
+
+E por fim o código teste para o Servo Motor, utiliza da função s.digitalwrite logo na parte void setup, e dessa forma já é possível verificar se o componente está funcionando.
 
 * [Arquivo Teste p/ SERVO](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_SERVOMOTOR/TESTE_SERVOMOTOR.ino)
