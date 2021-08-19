@@ -14,3 +14,5 @@ Com os materiais informados na etapa de design prontos, o primeiro passo a ser t
 
 * [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Codigo%20Teste%20para%20Componentes/TESTE_BUZZER)
 
+* [Arquivo Teste p/ SERVO](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Codigo%20Teste%20para%20Componentes/TESTE_SERVOMOTOR)
+
