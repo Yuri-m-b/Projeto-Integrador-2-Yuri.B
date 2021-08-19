@@ -10,16 +10,18 @@ No código utilizado para testar o funcionamento dos LED'S, aproveitou-se a idei
 
 ### Código Teste para o sensor MQ2
 
+O código teste utilizado para o sensor MQ2, possui 2 tarefas, onde a primeira é testado o uso do teclado serial juntamente com a leitura do pino analogico do sensor, com a função de ler e imprimir o valor que estiver nesse pino e demonstrar no monitor serial do arduino, e a tarefa 2 possui uma equação que será utilizado para o acionamento da mensagem de aviso quando o volume de gás captada pelo MQ2 seja maior que o volume de gás limite selecionado pele usuário na linha 13 do código
+
 * [Arquivo Teste p/ MQ2](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Codigo%20Teste%20para%20Componentes/TESTE_MQ2/TESTE_SensordeFumaca.ino)
 
 ### Código Teste para o sensor PIR
 
-* [Arquivo Teste p/ PIR](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Codigo%20Teste%20para%20Componentes/Teste_PIR)
+* [Arquivo Teste p/ PIR](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Codigo%20Teste%20para%20Componentes/Teste_PIR/Teste_sensorPIR.ino)
 
 ### Código Teste para o sensor BUZZER
 
-* [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Codigo%20Teste%20para%20Componentes/TESTE_BUZZER)
+* [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Codigo%20Teste%20para%20Componentes/TESTE_BUZZER/TESTE_BUZZER.ino)
 
 ### Código Teste para o sensor SERVO
 
-* [Arquivo Teste p/ SERVO](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Codigo%20Teste%20para%20Componentes/TESTE_SERVOMOTOR)
+* [Arquivo Teste p/ SERVO](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Codigo%20Teste%20para%20Componentes/TESTE_SERVOMOTOR/TESTE_SERVOMOTOR.ino)
