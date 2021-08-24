@@ -6,6 +6,8 @@ Turma: Projeto Integrador II 2021/1
 
 Aluno: Yuri Marques Barboza
 
+Repositório destinado ao Projeto Integrador 2 da 4º fase de Engenharia Eletrônica no IFSC - Câmpus Florianópoli
+
 
 
 ## [Introdução Domótica](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/introducao.md)
