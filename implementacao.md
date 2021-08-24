@@ -8,4 +8,11 @@ Com os materiais informados na etapa de design prontos, o primeiro passo a ser t
 
 [Como pode ser visto na sessão de testes do repositório](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
 
+## Maquete
+
+A segunda parte da implementação é a criação de uma maquete, para a planta baixa proposta na parte de concepção do projeto. Essa maquete servirá para a demonstração das funcionalidades dos eletrônicos em um ambiente mais próximo da realidade.
+
+![image](https://user-images.githubusercontent.com/63083579/130696469-f23597ba-e42f-4b6a-ad67-e15b3c6c00e2.png)
+
+
 
