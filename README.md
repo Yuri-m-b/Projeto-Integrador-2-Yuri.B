@@ -43,7 +43,7 @@ Repositório destinado ao Projeto Integrador 2 da 4º fase de Engenharia Eletrô
 
 ### Referências
 
-[Forum Arduino - Como usar teclado serial](!https://forum.arduino.cc/t/lighting-an-arduino-led-from-laptop-keyboard-keystroke/110019/9)
+[Forum Arduino - Como usar teclado serial](https://forum.arduino.cc/t/lighting-an-arduino-led-from-laptop-keyboard-keystroke/110019/9)
 
 [Blog Masterwalkershop - Como medir o volume de gas com sensor MQ2](https://blogmasterwalkershop.com.br/arduino/arduino-medindo-o-nivel-de-gas-com-o-sensor-mq2-e-buzzer)
 
