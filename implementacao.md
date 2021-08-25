@@ -10,9 +10,9 @@ Com os materiais informados na etapa de design prontos, o primeiro passo a ser t
 
 ## Maquete
 
-A segunda parte da implementação é a criação de uma maquete, para a planta baixa proposta na parte de concepção do projeto. Essa maquete servirá para a demonstração das funcionalidades dos eletrônicos em um ambiente mais próximo da realidade.
+A segunda parte da implementação é a criação de uma maquete, para a planta baixa proposta na parte de concepção do projeto. Essa maquete servirá para a demonstração das funcionalidades dos eletrônicos em um ambiente mais próximo da realidade. Com a maquete pronta é necessário instalar os componentes eletrônicos em seus determinados locais, como foi projetado na planta baixa. 
 
-![image](https://user-images.githubusercontent.com/63083579/130696469-f23597ba-e42f-4b6a-ad67-e15b3c6c00e2.png)
+![image](https://i.imgur.com/V8Kt01R.jpg)
 
 
 
