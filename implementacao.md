@@ -14,5 +14,10 @@ A segunda parte da implementação é a criação de uma maquete, para a planta 
 
 ![image](https://i.imgur.com/V8Kt01R.jpg)
 
+## Programação dos componentes
+
+Após ter completado todas as etapas anteriores, chegou-se na etapa mais importante do projeto, onde o objetivo é criar um código que será usado para controlar e monitorar todos os componentes eletrônicos que estão sendo usados. Usando os princípios estudados na etapa de testes dos componentes, foi criado um programa que têm todas as funções concebidas para o projeto, sua operação será explicada mais detalhadamente na etapa de operação.
+
+[Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
 
