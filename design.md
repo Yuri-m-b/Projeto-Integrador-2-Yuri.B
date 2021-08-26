@@ -38,3 +38,11 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 ![maquete1](https://i.imgur.com/6uID7ZO.jpg)
 
 ![maquete2](https://i.imgur.com/Eg2hgGE.jpg)
+
+## Teste dos Componentes
+
+Para evitar problemas na etapa de implementação e para entender a funcionalidade dos componentes eletrônicos, foram realizados testes isoladamente cada componente que será usado no projeto.
+
+![test_leds](https://i.imgur.com/QwQHbCX.jpg)
+
+Para testar os 6 LED's planejados para o projeto, desenvolveu-se apenas um circuito que ligaria esses LED's ao uma protoboard, com seus devidos requisitos de resistência com uma de suas portas ligadas ao gnd, e sua outra porta ligada nas entradas digitais do Arduino, usando um programa simples no software do Arduino, foi possível ligar e desligar os LED's confirmando assim que eles estavam funcionando.
