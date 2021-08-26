@@ -76,4 +76,4 @@ Conectando as saídas do Buzzer diretamente na placa Arduino, foi criado um prog
 
 * Códigos usados para testes podem ser encontrados aqui:
 
-[Testes](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
+* [Programa Teste](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
