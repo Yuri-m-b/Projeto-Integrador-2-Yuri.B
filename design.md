@@ -46,3 +46,7 @@ Para evitar problemas na etapa de implementação e para entender a funcionalida
 ![test_leds](https://i.imgur.com/QwQHbCX.jpg)
 
 Para testar os 6 LED's planejados para o projeto, desenvolveu-se apenas um circuito que ligaria esses LED's ao uma protoboard, com seus devidos requisitos de resistência com uma de suas portas ligadas ao gnd, e sua outra porta ligada nas entradas digitais do Arduino, usando um programa simples no software do Arduino, foi possível ligar e desligar os LED's confirmando assim que eles estavam funcionando.
+
+![test PIR](https://i.imgur.com/fBLlfSG.jpg)
+
+De forma a realizar o teste para o sensor de movimento PIR, deu-se necessario usar um LED que servíra de feedback para o sensor PIR, dessa forma ligando esse LED em uma das entradas digitais da placa Arduino, e também ligando esse sensor PIR em sua respectiva entrada digital na placa Arduino, seria então possível acionar um comando que fizesse com que quando a leitura de estado do sensor PIR estiver em Alta (HIGH), o LED acionara, e quando esse estado voltar para Baixo (LOW) apagando o LED.
