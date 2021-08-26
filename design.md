@@ -73,3 +73,7 @@ Para testar o componente Servo, foi apenas necessario conectar suas saídas GND,
 Conectando as saídas do Buzzer diretamente na placa Arduino, foi criado um programa que a partir de um comando por teclado serial seria acionado o Buzzer, por questão de preferencia não foi usado as funções Tone e noTone da documentação do Arduino, então para o ativamente e desligamento do equipamento é usado a alteração do estado digital do pino em que o Buzzer está ligado na placa Arduino
 
 ![test buzzer](https://i.imgur.com/qH9RSeD.jpg)
+
+* Códigos usados para testes podem ser encontrados aqui:
+
+[Testes](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
