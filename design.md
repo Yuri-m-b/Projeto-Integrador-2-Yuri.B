@@ -53,6 +53,10 @@ De forma a realizar o teste para o sensor de movimento PIR, deu-se necessario us
 
 ![test MQ2](https://i.imgur.com/qAqopc8.jpg)
 
+O sensor de gás MQ2, pode ser testado ligando suas saídas digitais e analogicas diretamente na placa Arduino, o programa teste criado para esse sensor, visa fazer a leitura do sinal do analogico do sensor apenas por demanda do usuario usando o teclado serial disponivel do programa Arduino, porém também testar um sistema de alerta em casos onde o volume de gás detectado esteja em um nível maior que o desejado, dessa forma também comprovando que o componente está funcionando corretamente.
+
 ![test servo](https://i.imgur.com/SMNGBUD.jpg)
+
+Para testar o componente Servo, foi apenas necessario conectar suas saídas GND, Vcc e Digital diretamente na placa Arduino, o codigo criado para seu teste tem como objetivo realizar com que esse Servo movimente sua saída parando nos angulos determinados pelo codigo teste.
 
 ![test buzzer](https://i.imgur.com/qH9RSeD.jpg)
