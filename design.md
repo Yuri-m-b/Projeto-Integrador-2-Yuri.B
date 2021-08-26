@@ -50,3 +50,9 @@ Para testar os 6 LED's planejados para o projeto, desenvolveu-se apenas um circu
 ![test PIR](https://i.imgur.com/fBLlfSG.jpg)
 
 De forma a realizar o teste para o sensor de movimento PIR, deu-se necessario usar um LED que servíra de feedback para o sensor PIR, dessa forma ligando esse LED em uma das entradas digitais da placa Arduino, e também ligando esse sensor PIR em sua respectiva entrada digital na placa Arduino, seria então possível acionar um comando que fizesse com que quando a leitura de estado do sensor PIR estiver em Alta (HIGH), o LED acionara, e quando esse estado voltar para Baixo (LOW) apagando o LED.
+
+![test MQ2](https://i.imgur.com/qAqopc8.jpg)
+
+![test servo](https://i.imgur.com/SMNGBUD.jpg)
+
+![test buzzer](https://i.imgur.com/qH9RSeD.jpg)
