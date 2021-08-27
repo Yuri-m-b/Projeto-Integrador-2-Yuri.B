@@ -48,14 +48,16 @@ A tarefa 3 possui a segunda função relacionada ao sensor MQ2, a primeira como 
 ~~~ C
 Linha 71
 int leitura_sensor = 500; 
-if (valor_analogico > leitura_sensor)     //Se o valor lido no pino analógico for maior que o valor limite, imprime a mensagem de aviso
+if (valor_analogico > leitura_sensor)
 {
   Serial.println("GÁS DETECTADO");
   Serial.println("PERIGO!!!!");
   digitalWrite(buzzer, LOW);
 }
 ~~~
-Quando esse volume detectado pelo MQ2 for maior que o valor dado pela variável leitura_sensor , o programa aciona um alerta para o monitor digital, juntamente com o acionamento do Buzzer criando assim um alarme sonoro também.
+Quando esse volume detectado pelo MQ2 for maior que o valor dado pela variável leitura_sensor , o programa aciona um alerta para o monitor digital, juntamente com o acionamento do Buzzer criando assim também um alarme sonoro.
+
+Por fim com todas as tarefas completas, o código final para o projeto foi criado, esse código pode ser acessado no link abaixo e mais informações podem ser vistas nas anotações feitas no próprio programa.
 
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
