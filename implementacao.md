@@ -25,16 +25,37 @@ Para todas as funções que necessitam de um "feedback" como o acionamentos dos 
 
 * Tarefa_1
 ~~~ C
+Linha 104 a 206
 void tarefa_1()
 ~~~
 O objetivo dessa tarefa é controlar todas as funções que necessitam do uso do teclado serial para que sejam realizadas, como todas as funções que pertencem a essa tarefa realizam apenas um comando, não foi necessário o uso de nenhum tipo de bloqueio para o seu funcionamento.
 A tarefa_1 inclui todos os acionamentos e desligamentos dos LED's, a leitura do volume de gás gerada pelo pino analógico do sensor MQ2, e o controle de movimento do servo motor.
 
 * Tarefa_2
-~~~ C
+~~~ C 
+Linha 209 a 228
 * void tarefa_2(unsigned long tempo_atual)
 ~~~
 Essa tarefa foi criada com o intuito de fazer o programa ler quando o sensor PIR entrar em estado (High), que significa movimento detectado, e como resposta acionar uma mensagem de alarme na tela do monitor serial, uma das ideias planejadas para o circuito era de fazer o buzzer acionar juntamente com o sensor PIR, contudo como eu não consegui criar uma função que desligasse o alarme quando desejado, decidiu-se não usar esses dois eletrônicos juntos.
+
+* Tarefa_3
+~~~ C 
+Linha 230 a 247
+* void tarefa_3(unsigned long tempo_atual)
+~~~
+A tarefa 3 possui a segunda função relacionada ao sensor MQ2, a primeira como falada antes está dentro da tarefa_1 e utiliza um comando do teclado serial para seu acionamento, já essa função dentro da tarefa 3 tem como objetivo alertar o usuário enviando uma mensagem no monitor serial, quando o volume de gás estiver maior do que o volume de gás normal armazenado no programa como pode ser visto a seguir:
+
+~~~ C
+Linha 71
+int leitura_sensor = 500; 
+if (valor_analogico > leitura_sensor)     //Se o valor lido no pino analógico for maior que o valor limite, imprime a mensagem de aviso
+{
+  Serial.println("GÁS DETECTADO");
+  Serial.println("PERIGO!!!!");
+  digitalWrite(buzzer, LOW);
+}
+~~~
+Quando esse volume detectado pelo MQ2 for maior que o valor dado pela variável leitura_sensor , o programa aciona um alerta para o monitor digital, juntamente com o acionamento do Buzzer criando assim um alarme sonoro também.
 
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
