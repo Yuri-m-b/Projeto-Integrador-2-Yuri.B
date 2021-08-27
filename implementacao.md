@@ -21,6 +21,13 @@ Para criar um programa que consiga realizar todas as ações projetadas para o c
 
 [Usando função loop() com várias tarefas sem bloqueio (delay)](https://github.com/LPAE/arduino_tutorial/tree/main/tarefas)
 
+Para todas as funções que necessitam de um "feedback" como o acionamentos dos LED's, ou mensagens de erros, é necessário o uso do teclado e monitor serial incluído no software do Arduino, todavia para que exista esse contato entre o programa e o teclado/monitor serial, foi preciso criar um código que construísse essa conexão, dando assim a função tarefa_1(loop) no programa.
+* Tarefa_1
+~~~ C
+void tarefa_1()
+~~~
+O objetivo dessa tarefa é controlar todas as funções que necessitam do uso do teclado serial para que sejam realizadas, como o todas as funções que pertencem a essa tarefa realizam apenas um comando, não foi necessário o uso de nenhum tipo de bloqueio para o seu funcionamento.
+
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
 
