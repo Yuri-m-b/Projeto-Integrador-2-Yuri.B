@@ -74,8 +74,6 @@ unsigned long tempo_tarefa_3 = millis();
 
 // Buzzer
 int buzzState = 0;
-const unsigned long periodo_tarefa_4 = 100; // Tempo de ativamente baixo devido a necessidade de ativar junto com a resposta dos sensores
-unsigned long tempo_tarefa_4 = millis();
 
 // Servo Motor
 const int pinoServo = 9;  //Pino digital utilizado pelo servo
@@ -237,20 +235,6 @@ void tarefa_3(unsigned long tempo_atual) {
     {
       Serial.println("GÁS DETECTADO");
       Serial.println("PERIGO!!!!");
-    }
-  }
-}
-
-// Tarefa 4 para o buzzer
-void tarefa_4(unsigned long tempo_atual) {
-  if (tempo_atual - tempo_tarefa_4 > periodo_tarefa_4)
-  {
-    int valor_analogico = analogRead(PinA0); // Declarado uma segunda vez por causa de problemas caso não feito
-    tempo_tarefa_4 = tempo_atual;
-
-    if (valor_analogico > leitura_sensor )   // Caso queira que o buzzer apenas alerte com o sensor de gás MQ2)
-   // if (valor_analogico > leitura_sensor || pirState == HIGH)   // Se o valor analogico for maior que o valor dado para a variavel leitura_sensor (linha 54) ou o sensor de movimento detectar movimento)
-    {
       digitalWrite(buzzer, LOW);
     }
     else
@@ -269,5 +253,4 @@ void tarefa_4(unsigned long tempo_atual) {
     tarefa_1();                         // Tarefa para o teclado e suas funções
     tarefa_2(meu_tempo_atual);          // Tarefa para o sensor de movimento
     tarefa_3(meu_tempo_atual);          // Tarefa para o detector de fumaça
-    tarefa_4(meu_tempo_atual);          // Tarefa para ligar e desligar o buzzer conforme os sensores PIR e de gás
   }
