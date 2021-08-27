@@ -41,36 +41,36 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ## Teste dos Componentes
 
-Para evitar problemas na etapa de implementação e para entender a funcionalidade dos componentes eletrônicos, foram realizados testes isoladamente cada componente que será usado no projeto.
+Para evitar problemas na etapa de implementação e para entender a funcionalidade dos componentes eletrônicos, foram realizados testes de forma isolada para cada componente que será usado no projeto.
 
 * LED'S
 
-Para testar os 6 LED's planejados para o projeto, desenvolveu-se apenas um circuito que ligaria esses LED's ao uma protoboard, com seus devidos requisitos de resistência com uma de suas portas ligadas ao gnd, e sua outra porta ligada nas entradas digitais do Arduino, usando um programa simples no software do Arduino, foi possível ligar e desligar os LED's confirmando assim que eles estavam funcionando.
+Para testar os 6 LED 's planejados para o projeto, desenvolveu-se um circuito que ligaria esses LED's uma protoboard, sendo sua saída digital filtrada por uma resistência, e sua outra saída conectada ao GND. Então usando um programa simples no software Arduino, foi possível ligar e desligar os LED's a partir do uso do teclado serial disponível, confirmando assim que eles estavam funcionando.
 
 
 ![test_leds](https://i.imgur.com/QwQHbCX.jpg)
 
 * Sensor de Movimento PIR
 
-De forma a realizar o teste para o sensor de movimento PIR, deu-se necessario usar um LED que servíra de feedback para o sensor PIR, dessa forma ligando esse LED em uma das entradas digitais da placa Arduino, e também ligando esse sensor PIR em sua respectiva entrada digital na placa Arduino, seria então possível acionar um comando que fizesse com que quando a leitura de estado do sensor PIR estiver em Alta (HIGH), o LED acionara, e quando esse estado voltar para Baixo (LOW) apagando o LED.
+De forma a realizar o teste para o sensor de movimento PIR, deu-se necessário usar um LED que serviria de feedback para o sensor PIR, dessa forma ligando esse LED em uma das entradas digitais da placa Arduino, e também ligando esse sensor PIR em outra entrada digital na placa Arduino, seria então possível acionar um comando que fizesse com que, quando a leitura de estado do sensor PIR estiver em Alta (HIGH), o LED acenderá, e quando esse estado voltar para Baixo (LOW) o LED será apagado.
 
 ![test PIR](https://i.imgur.com/fBLlfSG.jpg)
 
 * Sensor de Gás MQ2
 
-O sensor de gás MQ2, pode ser testado ligando suas saídas digitais e analogicas diretamente na placa Arduino, o programa teste criado para esse sensor, visa fazer a leitura do sinal do analogico do sensor apenas por demanda do usuario usando o teclado serial disponivel do programa Arduino, porém também testar um sistema de alerta em casos onde o volume de gás detectado esteja em um nível maior que o desejado, dessa forma também comprovando que o componente está funcionando corretamente.
+O sensor de gás MQ2 foi  testado ligando suas saídas digitais e analogicas diretamente na placa Arduino, o programa criado para  testar esse sensor visa fazer a leitura do sinal da saída analogica do sensor apenas quando o usuário requerer essa informação, para isso foi usado o teclado serial disponível do programa Arduino. Outra funcionalidade testada pelo programa é um sistema de alerta em casos onde o volume de gás detectado esteja em um nível maior que o desejado, onde quando essa situação acontece, o programa imprime uma mensagem de alerta no monitor serial do software Arduino, dessa forma comprovando que o componente está funcionando corretamente.
 
 ![test MQ2](https://i.imgur.com/qAqopc8.jpg)
 
 * Servo Motor
 
-Para testar o componente Servo, foi apenas necessario conectar suas saídas GND, Vcc e Digital diretamente na placa Arduino, o codigo criado para seu teste tem como objetivo realizar com que esse Servo movimente sua saída parando nos angulos determinados pelo codigo teste.
+Para testar o componente Servo, foi apenas necessário conectar suas saídas GND, Vcc e Digital diretamente na placa Arduino, o código criado para seu teste tem como objetivo realizar com que esse Servo movimente sua saída parando nos ângulos determinados pelo programa.
 
 ![test servo](https://i.imgur.com/SMNGBUD.jpg)
 
 * Buzzer
 
-Conectando as saídas do Buzzer diretamente na placa Arduino, foi criado um programa que a partir de um comando por teclado serial seria acionado o Buzzer, por questão de preferencia não foi usado as funções Tone e noTone da documentação do Arduino, então para o ativamente e desligamento do equipamento é usado a alteração do estado digital do pino em que o Buzzer está ligado na placa Arduino
+Conectando as saídas do Buzzer diretamente na placa Arduino, foi criado um programa que a partir de um comando por teclado serial será acionado o auto falante do Buzzer, por questão de preferência não foi usado as funções Tone e noTone da documentação do Arduino, então para o ativamente e desligamento do equipamento é usado a alteração do estado digital do pino em que o Buzzer está ligado na placa Arduino
 
 ![test buzzer](https://i.imgur.com/qH9RSeD.jpg)
 
