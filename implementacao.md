@@ -22,11 +22,19 @@ Para criar um programa que consiga realizar todas as ações projetadas para o c
 [Usando função loop() com várias tarefas sem bloqueio (delay)](https://github.com/LPAE/arduino_tutorial/tree/main/tarefas)
 
 Para todas as funções que necessitam de um "feedback" como o acionamentos dos LED's, ou mensagens de erros, é necessário o uso do teclado e monitor serial incluído no software do Arduino, todavia para que exista esse contato entre o programa e o teclado/monitor serial, foi preciso criar um código que construísse essa conexão, dando assim a função tarefa_1(loop) no programa.
+
 * Tarefa_1
 ~~~ C
 void tarefa_1()
 ~~~
-O objetivo dessa tarefa é controlar todas as funções que necessitam do uso do teclado serial para que sejam realizadas, como o todas as funções que pertencem a essa tarefa realizam apenas um comando, não foi necessário o uso de nenhum tipo de bloqueio para o seu funcionamento.
+O objetivo dessa tarefa é controlar todas as funções que necessitam do uso do teclado serial para que sejam realizadas, como todas as funções que pertencem a essa tarefa realizam apenas um comando, não foi necessário o uso de nenhum tipo de bloqueio para o seu funcionamento.
+A tarefa_1 inclui todos os acionamentos e desligamentos dos LED's, a leitura do volume de gás gerada pelo pino analógico do sensor MQ2, e o controle de movimento do servo motor.
+
+* Tarefa_2
+~~~ C
+* void tarefa_2(unsigned long tempo_atual)
+~~~
+Essa tarefa foi criada com o intuito de fazer o programa ler quando o sensor PIR entrar em estado (High), que significa movimento detectado, e como resposta acionar uma mensagem de alarme na tela do monitor serial, uma das ideias planejadas para o circuito era de fazer o buzzer acionar juntamente com o sensor PIR, contudo como eu não consegui criar uma função que desligasse o alarme quando desejado, decidiu-se não usar esses dois eletrônicos juntos.
 
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
