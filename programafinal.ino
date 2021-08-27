@@ -22,6 +22,23 @@
  *              |                 |  
  *               -----------------
  *                  USB   Fonte DC
+ *                  
+ *  Mapa de  teclas:
+ *  q - Acende luz da Quarto 1
+ *  Q - Apaga luz da Quarto 1    
+ *  w - Acende luz da Banheiro
+ *  W - Apaga luz da Banheiro   
+ *  e - Acende luz da Quarto 2
+ *  E - Apaga luz da Quarto 2   
+ *  r - Acende luz da Cozinha
+ *  R - Apaga luz da Cozinha   
+ *  t - Acende luz da Garagem
+ *  T - Apaga luz da Garagem   
+ *  y - Acende luz da Sala
+ *  Y - Apaga luz da Sala   
+ *  a/A -  Nivel de concentração de Gás
+ *  s - Portão abrindo
+ *  S - Portão fechando
 */
 
 // LEDS
@@ -69,12 +86,12 @@ int pos;                 //Posição do servo
 
 void setup() {
   Serial.begin(9600);          // ABRE A PORTA SERIAL, SETANDO PARA 9600 BPS
-  pinMode(LED1, OUTPUT);       // PINO DIGITAL DO LED 1 - SALA
-  pinMode(LED2, OUTPUT);       // PINO DIGITAL DO LED 2 - QUARTO 1
-  pinMode(LED3, OUTPUT);       // PINO DIGITAL DO LED 3 - BANHEIRO
-  pinMode(LED4, OUTPUT);       // PINO DIGITAL DO LED 4 - QUARTO 2
-  pinMode(LED5, OUTPUT);       // PINO DIGITAL DO LED 5 - COZINHA
-  pinMode(LED6, OUTPUT);       // PINO DIGITAL DO LED 6 - GARAGEM
+  pinMode(LED1, OUTPUT);       // PINO DIGITAL DO LED 1 - QUARTO 1
+  pinMode(LED2, OUTPUT);       // PINO DIGITAL DO LED 2 - BANHEIRO
+  pinMode(LED3, OUTPUT);       // PINO DIGITAL DO LED 3 - QUARTO 2
+  pinMode(LED4, OUTPUT);       // PINO DIGITAL DO LED 4 - COZINHA
+  pinMode(LED5, OUTPUT);       // PINO DIGITAL DO LED 5 - GARAGEM
+  pinMode(LED6, OUTPUT);       // PINO DIGITAL DO LED 6 - Sala
   pinMode(PIR, INPUT);         // PINO DIGITAL DO SENSOR PIR
   pinMode(MQ2, INPUT);         // PINO DIGITAL DO SENSOR MQ2
   pinMode(buzzer, OUTPUT);     // PINO DIGITAL DO BUZZER
@@ -94,7 +111,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
     Serial.print("Digito Recebido: ");  
     Serial.println(incomingByte);
 
-    // Para LED1 - SALA
+    // Para LED1 - QUARTO 1
     if (incomingByte == 'q')
     {
       digitalWrite(LED1, HIGH);
@@ -106,7 +123,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
       Serial.println("LED1 OFF");
     }
 
-    // Para LED2 - QUARTO 1
+    // Para LED2 - BANHEIRO
     else if (incomingByte == 'w')
     {
       digitalWrite(LED2, HIGH);
@@ -118,7 +135,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
       Serial.println("LED2 OFF");
     }
 
-    // Para LED3 - BANHEIRO
+    // Para LED3 - QUARTO 2
     else if (incomingByte == 'e')
     {
       digitalWrite(LED3, HIGH);
@@ -130,7 +147,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
       Serial.println("LED3 OFF");
     }
 
-    // Para LED4 - QUARTO 2
+    // Para LED4 - COZINHA
     else if (incomingByte == 'r')
     {
       digitalWrite(LED4, HIGH);
@@ -142,7 +159,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
       Serial.println("LED4 OFF");
     }
 
-    // Para LED5 - COZINHA
+    // Para LED5 - GARAGEM
     else if (incomingByte == 't')
     {
       digitalWrite(LED5, HIGH);
@@ -154,7 +171,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
       Serial.println("LED5 OFF");
     }
 
-    // Para LED6 - GARAGEM
+    // Para LED6 - SALA
     else if (incomingByte == 'y')
     {
       digitalWrite(LED6, HIGH);
