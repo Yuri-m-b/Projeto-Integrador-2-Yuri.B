@@ -5,20 +5,20 @@
  * Curso: Graduação em Engenharia Eletrônica
  * Objetivo: Testar a função do teclado que mostra a leitura o valor lido pelo pino analógico do sensor de gás, e também a função que irá alertar no teclado serial caso o nível de gases esteja em um nível muito elevado
  *  * 
- *  *  *                  Arduino MEGA
+ *  *  *            Arduino MEGA
  *               -----------------
  *              |                 |
  *              |                 |         
- *  PIR   <---  | PWM2            |        
- *  LED1  <---  | PWM3            |
- *  LED2  <---  | PWM4            |
- *  LED3  <---  | PWM5        A0  | ---> MQ2        
- *  LED4  <---  | PWM6            |        
- *  LED5  <---  | PWM7        GND |->- Cabo GND
- *  LED6  <---  | PWM8        VCC |->- Cabo VCC
- *  SERVO <---  | PWM9            |        
+ *              |                 |        
+ *              |                 |
+ *              |                 |
+ *              |             A0  | ---> MQ2        
+ *              |                 |        
+ *              |             GND |->- Cabo GND
+ *              |             VCC |->- Cabo VCC
+ *              |                 |        
  *  MQ2   <---  | PWM10           |        
- *  BUZZER<---  | PWM11           |    
+ *              |                 |    
  *              |                 |  
  *              |                 |  
  *               -----------------
