@@ -45,12 +45,17 @@ Para evitar problemas na etapa de implementação e para entender a funcionalida
 
 * LED'S
 
+* [Arquivo Teste p/ LEDs](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_6LED/TESTE_6led_acendendocomteclado.ino)
+
 Para testar os 6 LED 's planejados para o projeto, desenvolveu-se um circuito que ligaria esses LED's uma protoboard, sendo sua saída digital filtrada por uma resistência, e sua outra saída conectada ao GND. Então usando um programa simples no software Arduino, foi possível ligar e desligar os LED's a partir do uso do teclado serial disponível, confirmando assim que eles estavam funcionando.
 
 
 ![test_leds](https://i.imgur.com/QwQHbCX.jpg)
 
+
 * Sensor de Movimento PIR
+
+* [Arquivo Teste p/ PIR](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/Teste_PIR/Teste_sensorPIR.ino)
 
 De forma a realizar o teste para o sensor de movimento PIR, deu-se necessário usar um LED que serviria de feedback para o sensor PIR, dessa forma ligando esse LED em uma das entradas digitais da placa Arduino, e também ligando esse sensor PIR em outra entrada digital na placa Arduino, seria então possível acionar um comando que fizesse com que, quando a leitura de estado do sensor PIR estiver em Alta (HIGH), o LED acenderá, e quando esse estado voltar para Baixo (LOW) o LED será apagado.
 
@@ -58,11 +63,15 @@ De forma a realizar o teste para o sensor de movimento PIR, deu-se necessário u
 
 * Sensor de Gás MQ2
 
+* [Arquivo Teste p/ MQ2](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_MQ2/TESTE_MQ2.ino)
+
 O sensor de gás MQ2 foi  testado ligando suas saídas digitais e analogicas diretamente na placa Arduino, o programa criado para  testar esse sensor visa fazer a leitura do sinal da saída analogica do sensor apenas quando o usuário requerer essa informação, para isso foi usado o teclado serial disponível do programa Arduino. Outra funcionalidade testada pelo programa é um sistema de alerta em casos onde o volume de gás detectado esteja em um nível maior que o desejado, onde quando essa situação acontece, o programa imprime uma mensagem de alerta no monitor serial do software Arduino, dessa forma comprovando que o componente está funcionando corretamente.
 
 ![test MQ2](https://i.imgur.com/qAqopc8.jpg)
 
 * Servo Motor
+
+* [Arquivo Teste p/ SERVO](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_SERVOMOTOR/TESTE_SERVOMOTOR.ino)
 
 Para testar o componente Servo, foi apenas necessário conectar suas saídas GND, Vcc e Digital diretamente na placa Arduino, o código criado para seu teste tem como objetivo realizar com que esse Servo movimente sua saída parando nos ângulos determinados pelo programa.
 
@@ -70,10 +79,12 @@ Para testar o componente Servo, foi apenas necessário conectar suas saídas GND
 
 * Buzzer
 
+* [Arquivo Teste p/ BUZZER](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/Testes/TESTE_BUZZER/TESTE_BUZZER.ino)
+
 Conectando as saídas do Buzzer diretamente na placa Arduino, foi criado um programa que a partir de um comando por teclado serial será acionado o auto falante do Buzzer, por questão de preferência não foi usado as funções Tone e noTone da documentação do Arduino, então para o ativamente e desligamento do equipamento é usado a alteração do estado digital do pino em que o Buzzer está ligado na placa Arduino
 
 ![test buzzer](https://i.imgur.com/qH9RSeD.jpg)
 
-* Códigos usados para testes podem ser encontrados aqui:
+* Mais informações sobre os códigos usados para testes podem ser encontrados aqui:
 
 * [Programa Teste](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
