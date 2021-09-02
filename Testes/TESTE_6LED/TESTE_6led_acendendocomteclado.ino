@@ -5,14 +5,14 @@
  * Curso: Graduação em Engenharia Eletrônica
  * Objetivo desse arquivo: Testar se os LED estão funcionando, e se a função que aciona os LED pelo teclado SERIAL está funcionando.
  * 
- *  *  *                  Arduino MEGA
+ *  *  *            Arduino MEGA
  *               -----------------
  *              |                 |
  *              |                 |         
  *              |                 |        
  *  LED1  <---  | PWM3            |
  *  LED2  <---  | PWM4            |
- *  LED3  <---  | PWM5        A0  | ---> MQ2        
+ *  LED3  <---  | PWM5            |        
  *  LED4  <---  | PWM6            |        
  *  LED5  <---  | PWM7        GND |->- Cabo GND
  *  LED6  <---  | PWM8        VCC |->- Cabo VCC
