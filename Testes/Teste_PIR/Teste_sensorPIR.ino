@@ -10,15 +10,15 @@
  *              |                 |
  *              |                 |         
  *  PIR   <---  | PWM2            |        
- *  LED1  <---  | PWM3            |
- *  LED2  <---  | PWM4            |
- *  LED3  <---  | PWM5        A0  | ---> MQ2        
- *  LED4  <---  | PWM6            |        
- *  LED5  <---  | PWM7        GND |->- Cabo GND
- *  LED6  <---  | PWM8        VCC |->- Cabo VCC
- *  SERVO <---  | PWM9            |        
- *  MQ2   <---  | PWM10           |        
- *  BUZZER<---  | PWM11           |    
+ *              |                 |
+ *              |                 |
+ *              |                 |        
+ *              |                 |        
+ *              |             GND |->- Cabo GND
+ *              |             VCC |->- Cabo VCC
+ *              |                 |        
+ *              |                 |        
+ *              |                 |    
  *              |                 |  
  *              |                 |  
  *               -----------------
