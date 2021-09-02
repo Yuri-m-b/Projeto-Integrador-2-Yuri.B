@@ -41,7 +41,7 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ## Teste dos Componentes
 
-Para evitar problemas na etapa de implementação e para entender a funcionalidade dos componentes eletrônicos, foram realizados testes de forma isolada para cada componente que será usado no projeto.
+Para evitar problemas na etapa de implementação e para entender a funcionalidade dos componentes eletrônicos, foram realizados testes de forma isolada para cada componente que será usado no projeto. Como o projeto final poderá ter mais de um componente funcionando ao mesmo tempo, não seria inteligente usar a função delay porque essa função bloqueia completamente o programa até que a função que está ocorrendo no momento termine. Então para resolver esse problema foi decidido separar o código das ações de cada componente em "tarefas", cada tarefa terá um tempo determinado para enviar os dados de sua função, permitindo assim múltiplas ações acontecerem ao mesmo tempo enquanto o programa estiver rodando.
 
 * LED'S
 
