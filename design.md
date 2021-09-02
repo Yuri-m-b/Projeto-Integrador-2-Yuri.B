@@ -35,9 +35,9 @@ Para essa etapa do projeto, será definido os componentes e materiais que serão
 
 ## Maquete
 
-![maquete1](https://i.imgur.com/6uID7ZO.jpg)
+![maquete1](https://i.imgur.com/Ngvynqq.jpg)
 
-![maquete2](https://i.imgur.com/Eg2hgGE.jpg)
+![maquete2](https://i.imgur.com/y2Hcp6w.jpg)
 
 ## Teste dos Componentes
 
