@@ -5,20 +5,20 @@
  * Curso: Graduação em Engenharia Eletrônica
  * Objetivo: Testar se o sensor PIR está funcionando, usando um LED aceso para quando o sensor detectar movimento e um LED apagado quando não detectar movimento
  *  * 
- *  *  *                  Arduino MEGA
+ *  *  *             Arduino MEGA
  *               -----------------
  *              |                 |
  *              |                 |         
- *  PIR   <---  | PWM2            |        
- *  LED1  <---  | PWM3            |
- *  LED2  <---  | PWM4            |
- *  LED3  <---  | PWM5        A0  | ---> MQ2        
- *  LED4  <---  | PWM6            |        
- *  LED5  <---  | PWM7        GND |->- Cabo GND
- *  LED6  <---  | PWM8        VCC |->- Cabo VCC
+ *              |                 |        
+ *              |                 |
+ *              |                 |
+ *              |                 |         
+ *              |                 |        
+ *              |             GND |->- Cabo GND
+ *              |             VCC |->- Cabo VCC
  *  SERVO <---  | PWM9            |        
- *  MQ2   <---  | PWM10           |        
- *  BUZZER<---  | PWM11           |    
+ *              | PWM10           |        
+ *              | PWM11           |    
  *              |                 |  
  *              |                 |  
  *               -----------------
