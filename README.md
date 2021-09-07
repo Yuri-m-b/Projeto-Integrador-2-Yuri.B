@@ -1,4 +1,4 @@
-![Logo IFSC](./figuras/Logo_IFSC_Engenharia.jpg)
+![Logo IFSC](https://i.imgur.com/0wss3l8.jpg)
 
 # Projeto Integrador II de Yuri M.B.
 
