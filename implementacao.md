@@ -1,12 +1,14 @@
 # Implementação
 
-A etapa de Implementação de um projeto, é o momento onde será executado tudo que foi comunicado nas etapas anteriores, nesta fase a implementação estará sendo executada com o intuito de entregar o projeto finalizado. 
+Esse projeto tem como intenção trazer as vantagens da tecnologia atual para o dia-a-dia das pessoas, o tema Domotica abrange o universo existente de instrumentos eletrônicos que podem ser usados para melhorar e trazer mais conforto nas residências. A etapa de Implementação de um projeto, é o momento onde será executado tudo que foi comunicado nas etapas anteriores, nesta fase a implementação estará sendo executada com o intuito de entregar o projeto finalizado. 
 
-### Testes dos componentes
+Na etapa de Design foram mostrado os resultados da criação da maquete idealizada pela planta-baixa proposta, essa maquete servirá para a demonstração das funcionalidades dos eletrônicos em um ambiente mais próximo da realidade. Com a maquete pronta é necessário instalar os componentes eletrônicos em seus determinados locais, como foi projetado na planta baixa. 
 
-Com os materiais informados na etapa de design, o primeiro passo a ser tomado foi realizar testes para averiguar se todos os componentes eletrônicos estão funcionando corretamente. Os testes foram realizados usando programas criados usando o software próprio do Arduino separadamente para cada componente, visando testar suas condições físicas, e ao mesmo tempo planejando como será sua implementação no código final, dessa forma alguns arquivos testes ficaram mais complexos do que necessário para evitar possíveis problemas posteriores.
+Com os componentes informados na etapa de design, o primeiro passo tomado foi realizar testes para averiguar se todos os componentes eletrônicos estão funcionando corretamente. Os testes foram realizados usando programas criados separadamente para cada componente usando o software próprio do Arduino, visando testar suas condições físicas, e ao mesmo tempo planejando como será sua implementação no código final, dessa forma alguns arquivos testes ficaram mais complexos do que necessário para evitar possíveis problemas posteriores.
+Em alguns casos os códigos testes já foram criados pensando nas possíveis maneiras de como esses componentes serão implementados juntos no programa final, isso pode ser notado pela utilização do monitor serial em alguns códigos testes, e a utilização das funções tarefas. 
 
 [Como pode ser visto na sessão de testes do repositório](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
+
 
 ### Maquete
 
