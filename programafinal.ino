@@ -28,14 +28,14 @@
  *  Q - Apaga luz da Quarto 1    
  *  w - Acende luz da Banheiro
  *  W - Apaga luz da Banheiro   
- *  e - Acende luz da Quarto 2
- *  E - Apaga luz da Quarto 2   
- *  r - Acende luz da Cozinha
- *  R - Apaga luz da Cozinha   
- *  t - Acende luz da Garagem
- *  T - Apaga luz da Garagem   
- *  y - Acende luz da Sala
- *  Y - Apaga luz da Sala   
+ *  e - Acende luz da Sala
+ *  E - Apaga luz da Sala   
+ *  r - Acende luz da Quarto 2
+ *  R - Apaga luz da Quarto 2   
+ *  t - Acende luz da Cozinha
+ *  T - Apaga luz da Cozinha   
+ *  y - Acende luz da Garagem
+ *  Y - Apaga luz da Garagem  
  *  a/A -  Nivel de concentração de Gás
  *  s - Portão abrindo
  *  S - Portão fechando
@@ -86,10 +86,10 @@ void setup() {
   Serial.begin(9600);          // ABRE A PORTA SERIAL, SETANDO PARA 9600 BPS
   pinMode(LED1, OUTPUT);       // PINO DIGITAL DO LED 1 - QUARTO 1
   pinMode(LED2, OUTPUT);       // PINO DIGITAL DO LED 2 - BANHEIRO
-  pinMode(LED3, OUTPUT);       // PINO DIGITAL DO LED 3 - QUARTO 2
-  pinMode(LED4, OUTPUT);       // PINO DIGITAL DO LED 4 - COZINHA
-  pinMode(LED5, OUTPUT);       // PINO DIGITAL DO LED 5 - GARAGEM
-  pinMode(LED6, OUTPUT);       // PINO DIGITAL DO LED 6 - Sala
+  pinMode(LED3, OUTPUT);       // PINO DIGITAL DO LED 3 - SALA
+  pinMode(LED4, OUTPUT);       // PINO DIGITAL DO LED 4 - QUARTO 2
+  pinMode(LED5, OUTPUT);       // PINO DIGITAL DO LED 5 - COZINHA
+  pinMode(LED6, OUTPUT);       // PINO DIGITAL DO LED 6 - GARAGEM
   pinMode(PIR, INPUT);         // PINO DIGITAL DO SENSOR PIR
   pinMode(MQ2, INPUT);         // PINO DIGITAL DO SENSOR MQ2
   pinMode(buzzer, OUTPUT);     // PINO DIGITAL DO BUZZER
@@ -113,72 +113,72 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
     if (incomingByte == 'q')
     {
       digitalWrite(LED1, HIGH);
-      Serial.println("LED1 ON");
+      Serial.println("LED DO QUARTO 1 ON");
     }
     else if (incomingByte == 'Q')
     {
       digitalWrite(LED1, LOW);
-      Serial.println("LED1 OFF");
+      Serial.println("LED DO QUARTO 1 OFF");
     }
 
     // Para LED2 - BANHEIRO
     else if (incomingByte == 'w')
     {
       digitalWrite(LED2, HIGH);
-      Serial.println("LED2 ON");
+      Serial.println("LED DO BANHEIRO ON");
     }
     else if (incomingByte == 'W')
     {
       digitalWrite(LED2, LOW);
-      Serial.println("LED2 OFF");
+      Serial.println("LED DO BANHEIRO OFF");
     }
 
-    // Para LED3 - QUARTO 2
+    // Para LED3 - SALA
     else if (incomingByte == 'e')
     {
       digitalWrite(LED3, HIGH);
-      Serial.println("LED3 ON");
+      Serial.println("LED DA SALA ON");
     }
     else if (incomingByte == 'E')
     {
       digitalWrite(LED3, LOW);
-      Serial.println("LED3 OFF");
+      Serial.println("LED DA SALA OFF");
     }
 
-    // Para LED4 - COZINHA
+    // Para LED4 - QUARTO 2
     else if (incomingByte == 'r')
     {
       digitalWrite(LED4, HIGH);
-      Serial.println("LED4 ON");
+      Serial.println("LED DO QUARTO 2 ON");
     }
     else if (incomingByte == 'R')
     {
       digitalWrite(LED4, LOW);
-      Serial.println("LED4 OFF");
+      Serial.println("LED DO QUARTO 2 OFF");
     }
 
-    // Para LED5 - GARAGEM
+    // Para LED5 - COZINHA
     else if (incomingByte == 't')
     {
       digitalWrite(LED5, HIGH);
-      Serial.println("LED5 ON");
+      Serial.println("LED DA COZINHA ON");
     }
     else if (incomingByte == 'T')
     {
       digitalWrite(LED5, LOW);
-      Serial.println("LED5 OFF");
+      Serial.println("LED DA COZINHA OFF");
     }
 
-    // Para LED6 - SALA
+    // Para LED6 - GARAGEM
     else if (incomingByte == 'y')
     {
       digitalWrite(LED6, HIGH);
-      Serial.println("LED6 ON");
+      Serial.println("LED DA GARAGEM ON");
     }
     else if (incomingByte == 'Y')
     {
       digitalWrite(LED6, LOW);
-      Serial.println("LED6 OFF");
+      Serial.println("LED DA GARAGEM OFF");
     }
 
     // Para MQ2
@@ -193,7 +193,7 @@ void tarefa_1() {                       // ARMAZENA SERIAL para incomingByte
     else if (incomingByte == 's')
     {
       Serial.println("Portão Abrindo");
-      s.write(120);
+      s.write(112);
     }
     else if (incomingByte == 'S')
     {
