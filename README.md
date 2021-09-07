@@ -1,3 +1,5 @@
+![Logo IFSC](./figuras/Logo_IFSC_Engenharia.jpg)
+
 # Projeto Integrador II de Yuri M.B.
 
 Instituto Federal de Santa Catarina
