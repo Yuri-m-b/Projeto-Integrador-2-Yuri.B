@@ -9,6 +9,11 @@ Em alguns casos os códigos testes já foram criados pensando nas possíveis man
 
 [Como pode ser visto na sessão de testes do repositório](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/tree/main/Testes)
 
+Decidiu-se então o planejamento de como cada componente se comportará dentro do programa, e como o úsuario poderá interagir com eles:
+
+* LED'S: Os LEDs serão acionados pelo comando serial disponível pelo software do Arduino, cada LED usado no projeto necessita de um comando em um input específico do usuário para seu acionamento ou desligamento, um input de acionamento e um input de desligamento foram separados para cada LED. Eles não são influenciados por nenhum outro componente eletrônico do projeto dessa forma pode ser criar apenas uma tarefa/função para seu funcionamento. 
+
+
 
 ### Maquete
 
