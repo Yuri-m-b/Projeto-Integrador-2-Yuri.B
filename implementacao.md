@@ -19,6 +19,8 @@ Decidiu-se então o planejamento de como cada componente se comportará dentro d
 
 * Buzzer: Teve-se várias ideias para a implementação do buzzer no projeto final, porém foi mantido sua ideia inicial onde sua única interação é juntamente com o sensor MQ2, dessa forma o buzzer foi implementado na função de alerta do sensor MQ2, devido a problemas no uso da função noTone(), foi preferido usar as funções digitalWrite(High) e digitalWrite(LOW) para o ativamento e desligamento do Buzzer. 
 
+* Servo Motor: Para o servo motor assim como os LED, seu funcionamento é influenciado pela necessidade do usuário, desta forma o servo é ativado apenas após o input do usuário, e assim como os LED são usado dois inputs para cada estado do servo, o servo motor é usado para manusear o portão da residência dessa forma quando é desejado que o portão se abra o ângulo do servo é alterado para um valor acima de 90º e quando deseja-se fechar o portão o ângulo volta para seu estado inicial.  
+
 
 
 ### Maquete
