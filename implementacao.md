@@ -70,16 +70,16 @@ O maior obstáculo dessa tarefa acabou sendo o buzzer, utilizando a função noT
 ~~~ C
 Linha 71
 int leitura_sensor = 500; 
-  if (valor_analogico > leitura_sensor)
-  {
-    Serial.println("GÁS DETECTADO");
-    Serial.println("PERIGO!!!!");
-    digitalWrite(buzzer, LOW);
-  }
-    else
-    {
-      digitalWrite(buzzer, HIGH);
-    }
+if (valor_analogico > leitura_sensor)
+{
+  Serial.println("GÁS DETECTADO");
+  Serial.println("PERIGO!!!!");
+  digitalWrite(buzzer, LOW)
+}
+  else
+{
+   digitalWrite(buzzer, HIGH);
+}
 ~~~
 
 Por fim com todas as tarefas completas, o código final para o projeto foi finalizado, esse código pode ser acessado no link abaixo e mais informações podem ser vistas nas anotações feitas no próprio programa.
@@ -87,9 +87,10 @@ Por fim com todas as tarefas completas, o código final para o projeto foi final
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
 
-### Maquete
+### Implementando os componentes na maquete
 
-A segunda parte da implementação é a criação de uma maquete para a planta baixa proposta na parte de concepção do projeto. Essa maquete servirá para a demonstração das funcionalidades dos eletrônicos em um ambiente mais próximo da realidade. Com a maquete pronta é necessário instalar os componentes eletrônicos em seus determinados locais, como foi projetado na planta baixa. 
+Finalizando assim o protótipo final da casa, como definido na planta baixa do projeto, todos os componentes foram positivos em seus respectivos cômodos, e todos eles estão funcionando de forma esperada.
 
 ![image](https://i.imgur.com/V8Kt01R.jpg)
+
 
