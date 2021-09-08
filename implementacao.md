@@ -58,28 +58,31 @@ Dessa forma a tarefa_1 inclui todos os comandos seriais, e como esses comandos n
 Linha 209 a 228
 * void tarefa_2(unsigned long tempo_atual)
 ~~~
-Essa tarefa foi criada com o intuito de fazer o programa ler estado do sensor PIR, quando seu estado estiver em HIGH, significa que algum movimento foi detectado, acionando assim uma mensagem de alarme na tela do monitor serial, uma das ideias planejadas para o circuito era de fazer o buzzer acionar juntamente com o sensor PIR, contudo como eu não consegui criar uma função que desligasse o alarme quando desejado, decidiu-se não usar esses dois eletrônicos juntos.
+Essa tarefa foi criada com o intuito de fazer o programa ler o estado do sensor PIR, quando seu estado estiver em HIGH, significa que algum movimento foi detectado, acionando assim uma mensagem de alarme na tela do monitor serial, uma das ideias planejadas para o circuito era de fazer o buzzer acionar juntamente com o sensor PIR, contudo como eu não consegui criar uma função que desligasse o alarme quando desejado, decidiu-se não usar esses dois eletrônicos juntos.
 
 * Tarefa_3
 ~~~ C 
 Linha 230 a 247
 * void tarefa_3(unsigned long tempo_atual)
 ~~~
-A tarefa 3 possui a segunda função relacionada ao sensor MQ2, a primeira como falada antes está dentro da tarefa_1 e utiliza um comando do teclado serial para seu acionamento, já essa função dentro da tarefa 3 tem como objetivo alertar o usuário enviando uma mensagem no monitor serial, quando o volume de gás estiver maior do que o volume de gás normal armazenado no programa como pode ser visto a seguir:
-
+A tarefa 3 possui a função relacionada ao sensor MQ2 e o Buzzer, essa função dentro da tarefa 3 tem como objetivo alertar o usuário enviando uma mensagem de alerta no monitor serial e acionado o buzzer, quando o volume de gás estiver maior do que o volume de gás recomendado. Como não há necessidade da leitura do volume de gás a cada momento, o usuário pode acessar esse dado a partir do monitor serial, usando a tecla "a/A" como comando serial.
+O maior obstáculo dessa tarefa acabou sendo o buzzer, utilizando a função noTone() usada normalmente para esse eletrônico, não estava funcionando como o desejado, planejava-se poder regular tanto o volume quanto o tom sonoro do buzzer, porém todos essas funções foram descartadas no momento em que não se consegue desligar o Buzzer após o fim da mensagem de alerta do sensor MQ2, então por fim acabou sendo apenas usado a função digitalWrite para ligar/desligar o buzzer. 
 ~~~ C
 Linha 71
 int leitura_sensor = 500; 
-if (valor_analogico > leitura_sensor)
-{
-  Serial.println("GÁS DETECTADO");
-  Serial.println("PERIGO!!!!");
-  digitalWrite(buzzer, LOW);
-}
+  if (valor_analogico > leitura_sensor)
+  {
+    Serial.println("GÁS DETECTADO");
+    Serial.println("PERIGO!!!!");
+    digitalWrite(buzzer, LOW);
+  }
+    else
+    {
+      digitalWrite(buzzer, HIGH);
+    }
 ~~~
-Quando esse volume detectado pelo MQ2 for maior que o valor dado pela variável leitura_sensor , o programa aciona um alerta para o monitor digital, juntamente com o acionamento do Buzzer criando assim também um alarme sonoro.
 
-Por fim com todas as tarefas completas, o código final para o projeto foi criado, esse código pode ser acessado no link abaixo e mais informações podem ser vistas nas anotações feitas no próprio programa.
+Por fim com todas as tarefas completas, o código final para o projeto foi finalizado, esse código pode ser acessado no link abaixo e mais informações podem ser vistas nas anotações feitas no próprio programa.
 
 [Programa final para o projeto](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/programafinal.ino)
 
