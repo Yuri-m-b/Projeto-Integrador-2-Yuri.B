@@ -8,7 +8,7 @@ Turma: Projeto Integrador II 2021/1
 
 Aluno: Yuri Marques Barboza
 
-Repositório destinado ao Projeto Integrador 2 da 4º fase de Engenharia Eletrônica no IFSC - Câmpus Florianópoli
+Repositório destinado ao Projeto Integrador 2 da 4º fase de Engenharia Eletrônica no IFSC - Câmpus Florianópolis
 
 
 
