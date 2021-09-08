@@ -11,7 +11,13 @@ Em alguns casos os códigos testes já foram criados pensando nas possíveis man
 
 Decidiu-se então o planejamento de como cada componente se comportará dentro do programa, e como o úsuario poderá interagir com eles:
 
-* LED'S: Os LEDs serão acionados pelo comando serial disponível pelo software do Arduino, cada LED usado no projeto necessita de um comando em um input específico do usuário para seu acionamento ou desligamento, um input de acionamento e um input de desligamento foram separados para cada LED. Eles não são influenciados por nenhum outro componente eletrônico do projeto dessa forma pode ser criar apenas uma tarefa/função para seu funcionamento. 
+* LED'S: Os LEDs serão acionados pelo comando serial disponível pelo software do Arduino, cada LED usado no projeto necessita de um comando em um input específico do teclado dado pelo usuário para seu acionamento ou desligamento, um input de acionamento e um input de desligamento foram separados para cada LED. Eles não são influenciados por nenhum outro componente eletrônico do projeto dessa forma pode ser criar apenas uma tarefa/função para seu funcionamento. 
+
+* Sensor MQ2: Como o intuito do sensor MQ2 é principalmente alertar o usuário quando o nível de gás na residência está em níveis perigosos, criou-se uma função onde quando o volume de gás captado pelo sensor for maior que um valor constante dado pelo programa, nesse caso foi usado 500, o programa mostrará uma mensagem de alerta no monitor serial e também será acionado o Buzzer causando um efeito sonoro. Decidiu-se também dar a liberdade para o usuário verificar os níveis de gás a partir do uso de um input de teclado dado pelo usuário.
+
+* Sensor PIR: O sensor PIR foi planejado para servir como um sistema de segurança, dessa forma todo seu funcionamento é dado a partir do programa sem a necessidade ou interferência do usuário, a tarefa função criada para esse sensor tem como objetivo alertar pelo monitor serial quando algum movimento for detectado, esse sensor fica escaneando a área conforme o seu delay configurado usando seus potenciômetros interno mais o tempo determinado dentro do programa usando a tarefa_tempo. 
+
+* Buzzer: Teve-se várias ideias para a implementação do buzzer no projeto final, porém foi mantido sua ideia inicial onde sua única interação é juntamente com o sensor MQ2, dessa forma o buzzer foi implementado na função de alerta do sensor MQ2, devido a problemas no uso da função noTone(), foi preferido usar as funções digitalWrite(High) e digitalWrite(LOW) para o ativamento e desligamento do Buzzer. 
 
 
 
