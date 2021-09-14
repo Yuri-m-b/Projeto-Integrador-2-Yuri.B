@@ -20,6 +20,8 @@ Repositório destinado ao Projeto Integrador 2 da 4º fase de Engenharia Eletrô
 
 ## [Implementação](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/implementacao.md)
 
+## [Operação](https://github.com/Yuri-m-b/Projeto-Integrador-2-Yuri.B/blob/main/operacao.md)
+
 
 
 
